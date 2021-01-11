@@ -8,7 +8,6 @@ export class Fastfood extends React.Component {
 
     render() {
       return (
-        
       <div className="s">
                 <div className="center">
                   <form>

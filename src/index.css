@@ -1,8 +1,8 @@
 body {
   background-image: url("../../my-app/src/fav.jpg");
+      background-repeat:no-repeat;
+      background-size: cover;
   font-family: 'Trebuchet MS';
-  background-image-height: 150px;
-  background-image-width: 150px;
 
     }
     code {
@@ -12,12 +12,22 @@ body {
     
     .main_page {
       background-image: url("../../my-app/src/fav.jpg");
+      background-repeat:no-repeat;
+      background-size: cover;
       margin-left: 32px;
       margin-top: 32px;
       margin-bottom: 3.5%;
       margin-right: 40px;      
     }
     
+    .main_page1 {
+      background-color: rgb(181, 209, 176);
+      margin-left: 32px;
+      margin-top: 32px;
+      margin-bottom: 3.5%;
+      margin-right: 40px;      
+    }
+
     .title {  
       text-align: center;
        font-size: 32px;
@@ -57,10 +67,7 @@ body {
       color:rgb(229, 243, 33);
       font-family: Georgia;
     }
-.verites{
-  color:rgb(248, 140, 77);
-  text-decoration:underline;
-}
+
 .center {
   margin-left:55%;
   color:rgb(27, 226, 43);
@@ -101,19 +108,19 @@ color:rgb(13,124,23);
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
   cursor: pointer;
 }
 
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+.button1 { 
+  background:none;
+  color: rgb(253, 251, 251); 
+  border: 2px solid #1fd325;
 }
 
 .button1:hover {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #a9f0ab;
+  color: rgb(15, 7, 7);
 }
 
 .heading1 {
@@ -123,11 +130,17 @@ color:rgb(13,124,23);
   font-family:'Georgia';
 }
 .button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
+  background-color:rgb(8, 0, 8);
+  color: rgb(255, 255, 255); 
+  border: 2px solid #0be712;
   padding:15px;
   font-size:20px;
   font-family:'Times New Roman';
   text-align: center;
+}
+.Center1 {
+  text-align: center;
+  margin-top: 25%;
+  margin-left:10%;
+  margin-bottom: 50%;
 }
