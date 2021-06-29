@@ -11,7 +11,6 @@ import {Burger} from './burger';
 import {Sandwiche} from './sandwich';
 import {Drinks} from './drinks';
 import {initializeIcons} from '@uifabric/icons';
-
 export class Main extends React.Component {
   constructor() {
     super({});
@@ -19,7 +18,8 @@ export class Main extends React.Component {
   }
   
 render() {  
-  return (<div className="main_page">
+  return (
+  <div className="main_page">
      <div className="title">Globle Kitchen</div>
    <Router>
       <div className="menu_items">
@@ -48,41 +48,3 @@ ReactDOM.render(
   </>,
   document.getElementById('root')
 );
-/*
-import PetItem from './PetItem'
-import PetList from './PetList'
-import PetViewer from './PetViewer'
-
-const PetList = (props) => {
-  return(
-  <>
-    <lable htmlFotr="search">Search Item</lable>
-    <input type="text" value={props.inputValue} onChange={props.petFilterOnchange}/>
-
-    )
-}
-    class PetContainer extends Component {
-      state = {
-        pets: [],
-        pet: {},
-        isPetViewOn: false,
-        sortValue:'',
-        inputValue:'',
-      }
-    }
-petFilterOnChange = (event) => {
-  console.log("hi from onchange", event.target.value)
-  this.setState({ isineValue: event.target.value
-  })
-}
-<PetList pets={this.sortPets(filteredPets)}
-handlePetView={this.handlePetView}
-petFilterOnChange={this.petFilterOnChange}
-inputValue={this.state.inputValue}/>
-
-const filteredPets =
-this.state.pets.filter(pet => {
-  return pet.name.toLowerCase( ).inCludes(this.state.inputValue.toLowerCase())
-})
-
-*/

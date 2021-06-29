@@ -1,17 +1,26 @@
 body {
-  background-image: url("../../my-app/src/fav.jpg");
+  background-image: url("../../my-app/src/rename.jpg");
       background-repeat:no-repeat;
       background-size: cover;
   font-family: 'Trebuchet MS';
-
+  background-attachment: fixed;
     }
     code {
       font-family: source-code-pro, 'Menlo', Monaco, Consolas, Courier New,
         monospace;
     }
     
+    .div1 {
+  
+  top: 50%;
+  left: 50%;
+  position:fixed;
+  transform: translate(-50%, -50%);
+    }
+    
     .main_page {
-      background-image: url("../../my-app/src/fav.jpg");
+      background-image: url("../../my-app/src/rename.jpg");
+      background-attachment: fixed;
       background-repeat:no-repeat;
       background-size: cover;
       margin-left: 32px;
@@ -70,12 +79,12 @@ body {
 
 .center {
   margin-left:55%;
-  color:rgb(27, 226, 43);
+  color:rgb(246, 248, 246);
 }
 .green {
   margin-left: 45px;
   text-decoration: bold;
-  color:rgb(33, 243, 61);
+  color:rgb(251, 253, 251);
 }
 .img {
   height: 200px;
@@ -88,16 +97,16 @@ body {
   border:3px solid rgb(253, 253, 253);
 }
 .main-nav {
-  color:aqua;
+  color:rgb(241, 133, 133);
   font-size:30px;
   text-decoration: bold;
 }
 .main-nav-active {
-color:rgb(13,124,23);
+  color: rgb(255,234,234)
 }
 .main-nav:hover {
-  font-size:32px;
-  color: tomato;
+  transition-duration: 0.5s;
+  color: rgb(255, 255, 255);
 }
 .button {
   border: none;
@@ -108,7 +117,7 @@ color:rgb(13,124,23);
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.1s;
+  transition-duration: 0.4s;
   cursor: pointer;
 }
 
@@ -119,28 +128,29 @@ color:rgb(13,124,23);
 }
 
 .button1:hover {
-  background-color: #a9f0ab;
-  color: rgb(15, 7, 7);
+  background-color: #a9f0af;
+  border-color: #228d0d;
+  color: rgb(16, 95, 29);
 }
 
 .heading1 {
-  color:rgb(10, 245, 61);
+  color:rgb(249, 252, 250);
   text-align: center;
   font-size: 30px;
   font-family:'Georgia';
 }
 .button2 {
-  background-color:rgb(8, 0, 8);
+  background-color:rgb(248, 113, 113);
   color: rgb(255, 255, 255); 
-  border: 2px solid #0be712;
   padding:15px;
   font-size:20px;
   font-family:'Times New Roman';
   text-align: center;
 }
-.Center1 {
-  text-align: center;
-  margin-top: 25%;
-  margin-left:10%;
-  margin-bottom: 50%;
+.button2:hover {
+  transition-duration: 0.4s;
+background: none;
+  background-color: #f1a0a0;
+  color: rgb(15, 7, 7);
+
 }

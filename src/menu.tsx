@@ -38,5 +38,4 @@ const _items: ICommandBarItemProps[] = [
     iconProps: { iconName: 'DeliveryTruck' },
     href: '/tifinservice',
   },
-  
 ];

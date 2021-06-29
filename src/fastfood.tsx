@@ -5,7 +5,6 @@ export class Fastfood extends React.Component {
     constructor() {
       super({});
     }
-
     render() {
       return (
       <div className="s">
@@ -22,19 +21,19 @@ export class Fastfood extends React.Component {
         </div>
         <h1 className="green"><li>Fast Food Menu</li></h1>
         <ul>
-        <NavLink exact to="/pizza" className="main-nav" activeClassName="main-nav-active" ><h3>1. Pizza :</h3></NavLink>
+        <NavLink exact to="/pizza" className="main-nav" activeClassName="main-nav-active" ><h3>Pizza :</h3></NavLink>
         <ul>
         <img className="img" src="/img/wave.jpg" alt=""/>
         </ul>
-        <NavLink exact to="/burger" className="main-nav" activeClassName="main-nav-active" > <h3>2. Burger : </h3></NavLink>
+        <NavLink exact to="/burger" className="main-nav" activeClassName="main-nav-active" > <h3>Burger : </h3></NavLink>
         <ul>
         <img className="img" src="/img/big.jpg" alt=""/>
         </ul>
-        <NavLink exact to="/sandwich" className="main-nav" activeClassName="main-nav-active" > <h3>3. Sandwich : </h3></NavLink>
+        <NavLink exact to="/sandwich" className="main-nav" activeClassName="main-nav-active" > <h3>Sandwich : </h3></NavLink>
         <ul>
         <img className="img" src="/img/grill.jpg" alt=""/>
         </ul>
-        <NavLink exact to="/drinks" className="main-nav" activeClassName="main-nav-active" > <h3>4. Drinks : </h3></NavLink>
+        <NavLink exact to="/drinks" className="main-nav" activeClassName="main-nav-active" > <h3>Drinks : </h3></NavLink>
         <ul>
         <img className="img" src="/img/soda.jpg" alt=""/>
         </ul>
